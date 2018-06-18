@@ -17,7 +17,7 @@ State_tibble <- tibble(State_abbreviation = state.abb,
                         State_name= state.name) #Create a table containing names of states in the US
 
 ```
-#Function to scrap data from 'indeed.com' and 'simplyhired.com' 
+#Function to scrape data from 'indeed.com' and 'simplyhired.com' 
 ```{r}
 indeed_job_info <- function(keyword, location){
   job_data_1 = c("Job_title","Company_name","Location","City","State") #Create a blank data frame with the required columns
